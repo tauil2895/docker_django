@@ -1,0 +1,32 @@
+# Python (Temporary files)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual env
+venv/
+.env/
+env/
+ENV/
+
+# Django (Local database)
+db.sqlite3
+.env
+.env.dev
+.env.prod
+
+# Static files and user
+static/
+media/
+
+# Logs (Save errors)
+logs/
+*.log
+
+# Docker
+.docker/
+
+# Windows
+Thumbs.db
+Desktop.ini
